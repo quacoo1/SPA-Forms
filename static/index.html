@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+</head>
+<body> 
+    <nav>
+        <div class="nav-container">
+            <img class="logo" src="logo.png" alt="">
+        </div>
+    </nav>
+    <div class="content">
+        <div class="grid-1">
+            <div class="information">
+                <h1 class="heading-1">Quote Tool</h1>
+                <h3 class="heading-2">Step 1 of 2 - Photos</h3>
+                <p class="information__paragraph">
+                    Help us understand the overall requirements of your project by taking a photo of the entire pool area. Try to get all the fence runsin the one shot
+                </p>
+                <a href="photos-2.html" class="button button--desktop">next</a>
+            </div>
+        </div>
+        
+        <div class="grid-2">
+            <div class="inputs">
+                <h3 class="heading-3">Add Photo</h3>
+                <div class="image-input">
+                    <div class="image-input__upload-area">
+                        <div class="image-input__uploadlable-image-container"><img class="image-input__uploadlable-image" src="upload.svg" alt="upload image"><button class="image-input__cancel">x</button></div>
+                        <span class="image-input__upload-text">upload / drag image</span>
+                        <input type="file" accept="image/*" class="image-input__upload-button"> 
+                    </div>
+                </div>
+        
+                <div class="text-input">
+                    <textarea class="text-input__textarea" name="" placeholder="In few sentences describe the fence position in relation to the photo"></textarea>
+                    <!-- <div contentEditable="true"></div> -->
+                </div>
+                <a href="photos-2.html" class="button button--mobile">next</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="UploadImage.js"></script>
+</body>
+</html>
